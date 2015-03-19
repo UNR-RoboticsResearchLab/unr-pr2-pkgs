@@ -112,9 +112,9 @@ include_directories(
 # add_dependencies(wave_hello_node wave_hello_generate_messages_cpp)
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(wave_hello_node
-#   ${catkin_LIBRARIES}
-# )
+ target_link_libraries(move_arm
+   ${catkin_LIBRARIES}
+ )
 
 #############
 ## Install ##
